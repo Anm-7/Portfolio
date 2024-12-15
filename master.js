@@ -162,7 +162,7 @@ function works() {
          if (filterCategory === "all" || work.category.toLowerCase() === filterCategory.toLowerCase()) {
     const work_card = `
         <div class="detail ${work.category.toLowerCase()}">
-            <img src="${work.image}" alt="${work.title}" style="width: ${work.category === "graphics" ? '100%' : '100px'}; height: auto; border-radius: ${work.category === "graphics" ? '10px' : '0'};">
+            <img loading="lazy" src="${work.image}" alt="${work.title}" style="width: ${work.category === "graphics" ? '100%' : '100px'}; height: auto; border-radius: ${work.category === "graphics" ? '10px' : '0'};">
             <h3>${work.title}</h3>
             ${work.url ? `<button><a href="${work.url}" target="_blank">رؤية المشروع</a></button>` : ''}
         </div>
