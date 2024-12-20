@@ -148,6 +148,7 @@ function works() {
       { image: './works-imgs/Brosted.jpg', title: 'تصميم جرافيكي', category: "graphics" },
       { image: './works-imgs/restaurant.jpg', title: 'تصميم جرافيكي', category: "graphics" },
       { image: './works-imgs/restaurant2.jpg', title: 'تصميم جرافيكي', category: "graphics" },
+      { image: './works-imgs/burger.jpg', title: 'تصميم جرافيكي', category: "graphics" },
   ];
 
   const detail_list = document.getElementById("detail_list");
